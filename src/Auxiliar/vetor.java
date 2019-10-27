@@ -6,9 +6,9 @@ public class vetor {
     Random random = new Random();
 
 
+    int vetor[] = new int[100];
 
     public int[] vetor100(){
-        int vetor[] = new int[100];
         for (int i = 0; i < vetor.length; i++) {
            vetor[i] = random.nextInt(50);
         }

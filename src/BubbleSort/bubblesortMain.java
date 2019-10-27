@@ -2,10 +2,8 @@ package BubbleSort;
 
 import Auxiliar.tempo;
 import Auxiliar.vetor;
-import jdk.swing.interop.SwingInterOpUtils;
-
 import java.util.Arrays;
-import java.util.Scanner;
+
 
 public class bubblesortMain {
 
@@ -46,7 +44,7 @@ public class bubblesortMain {
         }
         System.out.print("\nNumeros em Ordem \n");
         System.out.println(Arrays.toString(bubbleSort(vetor.vetor100())));
-        System.out.println("Tempo: "+tempo.tempoBubble(vetor.vetor100())+ " ms\n" +
+        System.out.println("Tempo: "+tempo.tempoBubble(bubbleSort(vetor.vetor100()))+ " ms\n" +
                 "------------------------------------");
 
 
@@ -73,7 +71,7 @@ public class bubblesortMain {
         System.out.println("Tempo: "+tempo.tempoBubble(vetor.vetor10000())+ " ms\n" +
                 "------------------------------------");
 
-
+/**
         // VETOR 100000
         System.out.println("\n------------Vetor 100000------------\nNumeros Gerados");
         int tamanho4 = vetor.vetor100000().length;
@@ -96,7 +94,7 @@ public class bubblesortMain {
          System.out.println(Arrays.toString(bubbleSort(vetor.vetor1000000())));
          System.out.println("\nTempo: "+tempo.tempoBubble(vetor.vetor1000000())+ " ms\n" +
          "------------------------------------");
-
+*/
 
 
     }
